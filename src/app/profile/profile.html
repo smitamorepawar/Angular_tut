@@ -1,0 +1,24 @@
+
+<h3> This is Profile First Heading</h3>
+<button class="btn" name="btn-name" (click) ="handleEvent($event)">Click Event</button>
+<br>
+<br>
+<div (mouseenter)="handleBoxEvent($event)"
+ style="background-color: rgb(43, 226, 211); width: 100px; height: 100px ;"></div>
+
+ <div (mouseleave)="handleBoxEvent($event)"
+ style="background-color: brown; width: 100px; height: 100px;"
+ ></div>
+<br>
+ <br>
+ <br>
+ <br>
+ <input type="text"
+ (focus)="handleFocus($event)"
+ (blur)="handleBlur($event)"
+ name="=user1">
+ <br>
+ <br>
+ <input type="text"
+ (input)="textwriteEvent($event)"
+ nam="user2">
