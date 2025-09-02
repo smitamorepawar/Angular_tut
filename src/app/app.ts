@@ -4,12 +4,15 @@ import { Login } from './login/login';
 import { Signup } from './signup/signup';
 import { Profile } from './profile/profile';
 import { Display } from './display/display';
+import { Stylecomp } from './stylecomp/stylecomp';
+import { IfElseStat } from './if-else-stat/if-else-stat';
 
 @Component({
   selector: 'app-root',
-  imports: [Login,Signup,Profile,Display],
+  imports: [Login,Signup,Profile,Display,Stylecomp,IfElseStat],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  //styleUrl: './app.css',
+  styles:['h3{background-color:white}']
 })
 export class App {
   protected title = 'code step by step';

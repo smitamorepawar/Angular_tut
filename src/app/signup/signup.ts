@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
 export class Signup {
 name=""
 displayName=""
+email=""
+displayEmail=""
 getName(event:Event)
 {
   this.name=(event.target as HTMLInputElement).value
@@ -21,5 +23,17 @@ showName()
 setName()
 {
   this.name="Smita";
+}
+getEmail(event:Event)
+{
+  this.email=(event.target as HTMLInputElement).value
+}
+shwEmail()
+{
+this.displayEmail=this.email
+}
+setEmail()
+{
+  this.email="smita@gmail.com";
 }
 }

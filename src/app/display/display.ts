@@ -4,7 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-display',
   imports: [],
   templateUrl: './display.html',
-  styleUrl: './display.css'
+  //styleUrl: './display.css'
+  styleUrls:['./display.css','./btn.css']
 })
 export class Display {
 

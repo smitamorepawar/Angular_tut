@@ -9,8 +9,14 @@
 <h5>{{user1 != user2}}</h5>
 <h4>{{'hello'.toUpperCase()}}</h4>
 <h4>{{user2.toUpperCase()}}</h4> -->
+<style>
+    h3{
+        background-color: orangered;
+        border: 1px solid brown;
+    }
+</style>
 <app-login></app-login>
-<h3>Login Heading</h3>
+<h3 style="color: springgreen;">Login Heading</h3>
 <app-login></app-login>
 <app-signup></app-signup>
 <app-profile>Profie</app-profile>
@@ -18,4 +24,9 @@
 <button (click)="handleClickEvent()" >Click Me</button><br>
 <button (click)="handleClickEvent()" >Start</button><br>
 <button (click)="sum(12,34)">Sum</button>
-<app-display></app-display>
+<app-display></app-display><br>
+<app-stylecomp></app-stylecomp>
+
+<h3 style="color: greenyellow;border:rgb(255, 0, 85);">This is App-Html InLine Style</h3>
+<br>
+<app-if-else-stat></app-if-else-stat>
