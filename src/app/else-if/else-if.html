@@ -1,0 +1,19 @@
+<h3>else-if works!</h3>
+<button (click)="handlecolor(1)">RGB</button>
+<button (click)="handlecolor(2)">Aqua</button>
+<button (click)="handlecolor(3)">Gold</button>
+<button (click)="handlecolor(4)">Green</button><br>
+<input type="text" (input)="handleinput($event)" placeholder="enter color number">
+@if(color==1)
+{
+<div style="width: 100px; height:100px; background-color: rgb(111, 42, 177);border: solid yellow;"></div>
+}@else if(color==2)
+{
+<div  style="width: 100px; height: 100px; background-color: aqua;border: solid brown;"></div>
+}@else if(color==3)
+{
+        <div style="width: 100px; height: 100px; background-color: gold; border: solid gray;"></div>
+}@else
+{
+        <div  style="width: 100px; height: 100px; background-color: green; border: solid red;"></div>
+}

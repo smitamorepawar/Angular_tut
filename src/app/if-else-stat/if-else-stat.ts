@@ -8,6 +8,18 @@ import { Component } from '@angular/core';
 })
 export class IfElseStat {
 display=true;
-box=true;
+
 num=19;
+show()
+{
+  this.display=true;
+}
+hide()
+{
+  this.display=false;
+}
+toggle()
+{
+  this.display=!this.display;
+}
 }

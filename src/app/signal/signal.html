@@ -1,0 +1,15 @@
+<h3>Signal Works..</h3>
+<h3>{{x}}</h3>
+<!-- {{count}}<br> -->
+
+<!-- <button  (click)="update()" style="background-color:antiquewhite ;">Update value</button> -->
+
+<!-- <button (click)="update('inc')">Increment</button>
+<h3 style="color:rebeccapurple;">{{count()}}</h3>
+<button (click)="update('dec')">Decrement</button> -->
+
+<button (click)="count.set(count()+1)" 
+style="color: orangered;">Increment</button>
+<h3 style="color: rebeccapurple;">{{count()}}</h3>
+<button (click)="count.set(count()-1)"
+style="color: orangered;">Decrement</button>

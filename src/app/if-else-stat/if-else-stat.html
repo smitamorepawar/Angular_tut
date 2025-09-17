@@ -1,17 +1,18 @@
 
 <h2>If-Else Control_Stat </h2>
 
-@if(display)
-{
-<div style="width: 150px;height: 150px;background-color: rgb(187, 22, 22);">
-
-</div>
-}
 @if(num===19)
 {
     5000;
 }
-@if(box)
+@if(display)
 {
-    <div style="width: 70px;height: 30px;color: gray;background-color: greenyellow;text-align: center;">BOX</div>
+<div style="width: 100px;height: 100px;background-color: rgb(208, 241, 15); text-align:center;border:solid blueviolet;">
+IF-Else
+</div>
 }
+
+
+<button (click)="show()" style="background-color: green;height: 20px; width: 50px;color: yellowgreen;">Show</button>
+<button  (click)="hide()" style="background-color: red; height: 20px; width: 50px;color: aqua;">Hide</button>
+<button (click)="toggle()" style="background-color: aqua;">Toggle</button>

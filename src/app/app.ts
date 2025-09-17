@@ -6,10 +6,14 @@ import { Profile } from './profile/profile';
 import { Display } from './display/display';
 import { Stylecomp } from './stylecomp/stylecomp';
 import { IfElseStat } from './if-else-stat/if-else-stat';
+import { ElseIf } from './else-if/else-if';
+import { SwitchCase } from './switch-case/switch-case';
+import { Loop } from './loop/loop';
+import { Signal } from './signal/signal';
 
 @Component({
   selector: 'app-root',
-  imports: [Login,Signup,Profile,Display,Stylecomp,IfElseStat],
+  imports: [Login,Signup,Profile,Display,Stylecomp,IfElseStat,ElseIf,SwitchCase,Loop,Signal],
   templateUrl: './app.html',
   //styleUrl: './app.css',
   styles:['h3{background-color:white}']

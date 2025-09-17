@@ -1,0 +1,17 @@
+
+<h2 style="color: rgb(130, 238, 224);">For Loop,Array..</h2>
+@for(names of name;track names)
+{
+    <h3 style="color: gold;">{{names}}</h3>
+}
+<h2 style="color:blue;">Student Details...</h2>
+@for(student of students;track student.stuName;let id=$index)
+{
+    <h3 style="color: rgb(0, 255, 149);">
+        {{id+1}}
+        {{student.stuName}}
+        {{student.age}}
+        {{student.email}}
+    </h3>
+    <button (click)="getname(student.stuName)" style="background-color:gold;color: red;">GetName</button>
+}
